@@ -5,6 +5,8 @@ Simple todo list
 ### Stack Technology
 [ReactJS](https://reactjs.org/)
 
+[Redux](https://redux.js.org/)
+
 [React Router](https://reactrouter.com/docs/en/v6/getting-started/overview/)
 
 [TailwindCSS](Tailwindcss.com/)
