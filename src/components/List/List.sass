@@ -1,0 +1,16 @@
+.tab
+  @apply grid grid-cols-2 gap-4 w-full
+  &__button
+    @apply flex items-center justify-center space-x-2 bg-white w-full p-4 rounded-lg cursor-pointer font-semibold shadow-lg
+    &--warning
+      @apply text-yellow-700 hover:bg-yellow-50
+    &--success
+      @apply text-green-700 hover:bg-green-50
+.list
+  @apply flex flex-col space-y-2
+  &__content
+    @apply bg-white rounded-md p-3 shadow-lg cursor-pointer
+    &--warning
+      @apply hover:bg-amber-50
+    &--success
+      @apply hover:bg-green-50
